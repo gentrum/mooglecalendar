@@ -1,0 +1,107 @@
+.rbc-calendar {
+    color: white;
+    font-family: 'Ubuntu-Mono', monospace;
+    width: calc(100vw - 320px);
+}
+
+.rbc-toolbar button {
+    background-color: white;
+    color: #26A269;
+    font-weight: bold;
+    font-family: 'Ubuntu-Mono', monospace;
+}
+
+.rbc-btn-group{
+    padding-bottom: 5px;
+}
+
+.rbc-date-cell button{
+    color: #26A269;
+    font-family: 'Ubuntu-Mono', monospace;
+    font-weight: bold;    
+}
+
+.rbc-month-view{
+    border: 1px solid black;
+}
+
+.rbc-day-bg{
+    background-color: white;
+}
+
+.rbc-day-bg + .rbc-day-bg{
+    border-left: 1px solid black;
+}
+
+.rbc-off-range-bg{
+    background-color: lightgray;
+    border-left: 1px solid black;
+}
+
+.rbc-month-row{
+    border: 1px solid black;
+}
+
+.rbc-month-row + .rbc-month-row{
+    border-top: 1px solid black;
+}
+
+.rbc-month-header{
+    border: 1px solid black;
+}
+
+.rbc-header{
+    border: 1px solid black;
+    font-family: 'Ubuntu-Mono', monospace;
+    color:#26A269;
+    background-color: white;
+}
+
+.rbc-header + .rbc-header{
+    border: 1px solid black;
+}
+
+.rbc-today{
+    background-color: lightblue;
+}
+
+.rbc-event{
+    color:white;
+    box-sizing: border-box;
+}
+
+.rbc-row-segment .rbc-event-content{
+    overflow: visible;
+    font-size: calc(4px + 1vw);
+    text-wrap: pretty;
+}
+
+.rbc-toolbar-label{
+    color: #26A269;
+    font-weight: bold;
+}
+
+.rbc-toolbar{
+    padding-top: 20px;
+}
+
+#isTaskSelected {
+    max-height: 100px;
+    transition: max-height 0.5s ease-out;
+}
+
+#taskNotSelected{
+    max-height: 0px;
+    transition: max-height 0.5s ease-in-out;
+}
+
+#selectedTaskDetails{
+    font-family: 'Ubuntu-Mono', monospace;
+    color: #26A269;
+}
+
+#deleteButton{
+    font-family: 'Ubuntu-Mono', monospace;
+    color: black;
+    font-weight: bold;
+}

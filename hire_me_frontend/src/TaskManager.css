@@ -24,3 +24,46 @@ textarea{
     max-height: fit-content;
     writing-mode: horizontal-tb;
 }
+
+.task-form-container{
+    position: fixed;
+    top: 110px;
+    right: 0;
+    height: 122px;
+    max-width: 0;
+    overflow: hidden;
+    transition: max-width 0.5s ease-in-out;
+}
+
+.task-form-container-visible{
+    position: fixed;
+    top: 110px;
+    right: 0;
+    height: 122px;
+    max-width: 305px;
+    overflow: hidden;
+    transition: max-width 0.5s ease-out;
+}
+
+#formButton{
+    position: fixed;
+    right: 0;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: calc(11px + 0.4vw);
+    font-weight: bold;
+}
+
+#submitButton{
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: calc(11px + 0.4vw);
+    font-weight: bold;
+}
+
+#dateInput{
+    font-size: calc(11px + 0.4vw);
+    font-weight: bold;
+}
+
+div.container{
+    right: 0;
+}

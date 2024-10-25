@@ -1,0 +1,26 @@
+:root{
+    background-color: rgb(1, 10, 20);
+}
+
+h1{
+    font-family: 'Ubuntu Mono', monospace;
+    color: #26A269;
+}
+
+input{
+    font-family: 'Ubuntu Mono', monospace;
+    width: 300px;
+}
+
+input[type="date"]{
+    font-family: 'Ubuntu Mono', monospace;
+    width: 150px;
+}
+
+textarea{
+    font-family: 'Ubuntu Mono', monospace;
+    width: 300px;
+    min-height: 50px;
+    max-height: fit-content;
+    writing-mode: horizontal-tb;
+}
